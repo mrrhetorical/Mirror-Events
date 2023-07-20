@@ -110,7 +110,7 @@ public void AddScore(PlayerDeathEvent e) {
 ### Will this work on non-NetworkBehaviour-derived classes?
 Yes. This will work from any C# class so long as it is registered with `EventHandler.RegisterEvents()`
 
-### Do event handlers respect \[Server\] and \[Client\] tags?
+### Do event handlers respect \[Server\] and \[Client\] attributes?
 Yes!! If you have registered a class on both the client and a server specifying a \[Server\] or \[Client\] attribute will ensure the NetworkEventHandler will only listen on that 'side'.
 
 ### I have a question or am confused about something, where can I reach out to you? 
