@@ -1,5 +1,5 @@
 # Mirror-Events
-Mirror-Events is a free add-on to the [Mirror](https://github.com/MirrorNetworking/Mirror) networking library for Unity created y. It adds additional functionality to Mirror that allows developers to more easily create networked events to easily track game state changes.
+Mirror-Events is a free add-on to the [Mirror](https://github.com/MirrorNetworking/Mirror) networking library for Unity created by Caleb Brock of Calroot Digital. It adds additional functionality to Mirror that allows developers to more easily create networked events to easily track game state changes.
 
 ### What does it do?
 Mirror-Events adds an event-handling system to Mirror that allows you to easily invoke and observe NetworkEvents.
